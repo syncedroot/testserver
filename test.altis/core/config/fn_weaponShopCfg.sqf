@@ -30,7 +30,9 @@ switch(_shop) do
 				["Recruiten Ausgabe",
 					[
 						["arifle_sdar_F","Taser Rifle",2000],
+						["hgun_P07_snds_F","Stun Pistol",2000],
 						["hgun_P07_F",nil,7500],
+						["HandGrenade_Stone","Flashbang",1700],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -78,11 +80,11 @@ switch(_shop) do
 					[
 						["arifle_MXC_Black_F",nil,3500],
 						["SMG_02_ACO_F",nil,30000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
-						["optic_Hamr",nil,500],
-						["optic_MRCO",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250],
 						["ItemWatch",nil,450],
@@ -115,11 +117,10 @@ switch(_shop) do
 						["srifle_DMR_01_F",nil,3500],
 						["SMG_02_ACO_F",nil,30000],
 						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
-						["optic_Hamr",nil,500],
-						["optic_MRCO",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["10Rnd_762x51_Mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250],
@@ -143,7 +144,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 4): {"Du bist kein Detective!"};
+			case (__GETC__(life_coplevel) < 3): {"Du bist kein Detective!"};
 			default
 			{
 				["Detective Ausgabe",
@@ -158,8 +159,6 @@ switch(_shop) do
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
-						["optic_Hamr",nil,500],
-						["optic_MRCO",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["10Rnd_762x51_Mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250],
@@ -183,7 +182,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 5): {"Du bist kein Lieutenant!"};
+			case (__GETC__(life_coplevel) < 3): {"Du bist kein Lieutenant!"};
 			default
 			{
 				["Lieutenant Ausgabe",
@@ -193,8 +192,8 @@ switch(_shop) do
 						["arifle_MXM_Black_F",nil,3500],
 						["srifle_GM6_F",nil,3500],
 						["5Rnd_127x108_Mag",nil,200],
-						["srifle_EBR_F",nil,45000],
-						["20Rnd_762x51_Mag",nil,500],
+						["srifle_DMR_01_F",nil,45000],
+						["10Rnd_762x51_Mag",nil,200],
 						["srifle_DMR_01_F",nil,3500],
 						["SMG_02_ACO_F",nil,30000],
 						["HandGrenade_Stone","Flashbang",1700],
@@ -202,8 +201,6 @@ switch(_shop) do
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
-						["optic_Hamr",nil,500],
-						["optic_MRCO",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["10Rnd_762x51_Mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250],
@@ -227,7 +224,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 6): {"Du bist kein Captain!"};
+			case (__GETC__(life_coplevel) < 3): {"Du bist kein Captain!"};
 			default
 			{
 				["Captain Ausgabe",
@@ -239,8 +236,7 @@ switch(_shop) do
 						["5Rnd_127x108_Mag",nil,200],
 						["arifle_Katiba_F",nil,3500],
 						["30Rnd_65x39_caseless_green",nil,200],
-						["srifle_EBR_F",nil,45000],
-						["20Rnd_762x51_Mag",nil,500],
+						["srifle_DMR_01_F",nil,45000],
 						["10Rnd_762x51_Mag",nil,200],
 						["srifle_DMR_01_F",nil,3500],
 						["SMG_02_ACO_F",nil,30000],
@@ -249,8 +245,6 @@ switch(_shop) do
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
-						["optic_Hamr",nil,500],
-						["optic_MRCO",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["10Rnd_762x51_Mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250],
@@ -281,8 +275,19 @@ switch(_shop) do
 			{
 				["Mohammed's Jihadi Shop",
 					[
-						
-						["30Rnd_65x39_caseless_green",nil,2705]
+						["arifle_TRG20_F",nil,25000],
+						["arifle_Katiba_F",nil,30000],
+						["srifle_DMR_01_F",nil,50000],
+						["arifle_SDAR_F",nil,20000],
+						["optic_ACO_grn",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
@@ -299,25 +304,16 @@ switch(_shop) do
 			{
 				["Billy Joe's Firearms",
 					[
-						["arifle_Katiba_F",nil,200000],
-						["30Rnd_65x39_caseless_green_mag_Tracer",nil,20000],
-						["arifle_MX_F",nil,75000],
-						["30Rnd_65x39_caseless_mag_Tracer",nil,7500],
-						["arifle_MXM_F",nil,100000],
-						["arifle_MXC_F",nil,90000],
-						["srifle_DMR_01_F",nil,150000],
-						["10Rnd_762x51_Mag",nil,10000],
-						["hgun_Rook40_F",nil,20000],
-						["hgun_Pistol_heavy_02_F",nil,7500],
-						["hgun_ACPC2_F",nil,5000],
-						["hgun_PDW2000_F",nil,10000],
+						["hgun_Rook40_F",nil,6500],
+						["hgun_Pistol_heavy_02_F",nil,9850],
+						["hgun_ACPC2_F",nil,11500],
+						["hgun_PDW2000_F",nil,20000],
 						["optic_ACO_grn_smg",nil,2500],
-						["arifle_SDAR_F",nil,15000],
-						["20Rnd_556x45_UW_mag",nil,3500],
-						["16Rnd_9x21_Mag",nil,5000],
-						["9Rnd_45ACP_Mag",nil,5000],
-						["6Rnd_45ACP_Cylinder",nil,5000],
-						["30Rnd_9x21_Mag",nil,5000]
+						["V_Rangemaster_belt",nil,4900],
+						["16Rnd_9x21_Mag",nil,25],
+						["9Rnd_45ACP_Mag",nil,45],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["30Rnd_9x21_Mag",nil,75]
 					]
 				];
 			};
@@ -333,16 +329,16 @@ switch(_shop) do
 			{
 				["Hideout Armament",
 					[
-						["hgun_Rook40_F",nil,12000],
-						["hgun_Pistol_heavy_02_F",nil,15000],
-						["hgun_ACPC2_F",nil,11500],
-						["hgun_PDW2000_F",nil,20000],
-						["optic_ACO_grn_smg",nil,2500],
-						["V_Rangemaster_belt",nil,4900],
-						["16Rnd_9x21_Mag",nil,5000],
-						["9Rnd_45ACP_Mag",nil,5000],
-						["6Rnd_45ACP_Cylinder",nil,5000],
-						["30Rnd_9x21_Mag",nil,5000]
+						["hgun_Rook40_F",nil,1500],
+						["hgun_Pistol_heavy_02_F",nil,2500],
+						["hgun_ACPC2_F",nil,4500],
+						["hgun_PDW2000_F",nil,9500],
+						["optic_ACO_grn_smg",nil,950],
+						["V_Rangemaster_belt",nil,1900],
+						["16Rnd_9x21_Mag",nil,25],
+						["9Rnd_45ACP_Mag",nil,45],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["30Rnd_9x21_Mag",nil,75]
 					]
 				];
 			};
@@ -353,248 +349,47 @@ switch(_shop) do
 	{
 		["Altis General Store",
 			[
-				["Binocular",nil,1500],
-				["ItemGPS",nil,1000],
-				["ToolKit",nil,2500],
-				["FirstAidKit",nil,1500],
-				["NVGoggles",nil,5000]
+				["Binocular",nil,150],
+				["ItemGPS",nil,100],
+				["ToolKit",nil,250],
+				["FirstAidKit",nil,150],
+				["NVGoggles",nil,2000],
+				["Chemlight_red",nil,300],
+				["Chemlight_yellow",nil,300],
+				["Chemlight_green",nil,300],
+				["Chemlight_blue",nil,300]
 			]
 		];
 	};
 	
-	case "recon_1":
+		\\ ReCon Weapon Shop:
+	case "recon":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) == 0): {"Du gehörst nicht zur ReCon!"};
+			case (__GETC__(life_rebellevel) == 0): {"Du gehörst nicht zur ReCon!"}; <- Add this line to your shop to make it Whitelisted Only
 			default
 			{
-				["ReCon Prospect",
+				["ReCon Waffenhändler",
 					[
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000]
+						["arifle_TRG20_F",nil,25000],
+						["arifle_Katiba_F",nil,30000],
+						["srifle_DMR_01_F",nil,50000],
+						["arifle_SDAR_F",nil,20000],
+						["optic_ACO_grn",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
 		};
 	};
-	
-		case "recon_2":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) < 2): {"Du hast nicht den nötigen Rang!"};
-			default
-			{
-				["ReCon Driver",
-					[
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["SMG_02_F",nil,50000],
-						["30Rnd_9x21_Mag",nil,5000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000]
-					]
-				];
-			};
-		};
-	};
-	
-	case "recon_3":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) < 3): {"Du hast nicht den nötigen Rang!"};
-			default
-			{
-				["ReCon Private",
-					[
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["SMG_02_F",nil,50000],
-						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
-						["30Rnd_65x39_caseless_mag",nil,10000],
-						["20Rnd_762x51_Mag",nil,50000],
-						["30Rnd_65x39_caseless_green",nil,35000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000],
-						["16Rnd_9x21_Mag",nil,2500],
-						["9Rnd_45ACP_Mag",nil,2500],
-						["6Rnd_45ACP_Cylinder",nil,2500],
-						["30Rnd_9x21_Mag",nil,2500],
-						["optic_Holosight",nil,10000]
-					]
-				];
-			};
-		};
-	};
-	
-		case "recon_4":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) < 4): {"Du hast nicht den nötigen Rang!"};
-			default
-			{
-				["ReCon Colonel",
-					[
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
-						["100Rnd_65x39_caseless_mag",nil,35000],
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["SMG_02_F",nil,50000],
-						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
-						["30Rnd_65x39_caseless_mag",nil,10000],
-						["20Rnd_762x51_Mag",nil,50000],
-						["30Rnd_65x39_caseless_green",nil,35000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000],
-						["16Rnd_9x21_Mag",nil,2500],
-						["9Rnd_45ACP_Mag",nil,2500],
-						["6Rnd_45ACP_Cylinder",nil,2500],
-						["30Rnd_9x21_Mag",nil,2500],
-						["optic_Holosight",nil,10000],
-						["optic_Arco",nil,20000],
-						["optic_Hamr",nil,20000],
-						["optic_MRCO",nil,20000]
-					]
-				];
-			};
-		};
-	};
-	
-			case "recon_5":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) < 5): {"Du hast nicht den nötigen Rang!"};
-			default
-			{
-				["ReCon Major",
-					[
-						["srifle_EBR_F",nil,300000],
-						["arifle_Katiba_F",nil,150000],
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
-						["100Rnd_65x39_caseless_mag",nil,35000],
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["SMG_02_F",nil,50000],
-						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
-						["30Rnd_65x39_caseless_mag",nil,10000],
-						["20Rnd_762x51_Mag",nil,50000],
-						["30Rnd_65x39_caseless_green",nil,35000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000],
-						["16Rnd_9x21_Mag",nil,2500],
-						["9Rnd_45ACP_Mag",nil,2500],
-						["6Rnd_45ACP_Cylinder",nil,2500],
-						["30Rnd_9x21_Mag",nil,2500],
-						["optic_Holosight",nil,10000],
-						["optic_Arco",nil,20000],
-						["optic_Hamr",nil,20000],
-						["optic_MRCO",nil,20000]
-					]
-				];
-			};
-		};
-	};
-	
-				case "recon_6":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (__GETC__(life_rebellevel) < 6): {"Du hast nicht den nötigen Rang!"};
-			default
-			{
-				["ReCon MrX",
-					[
-						["launch_RPG32_F",nil,2500000],
-						["RPG32_F",nil,250000],
-						["LMG_Mk200_F",nil,500000],
-						["200Rnd_65x39_cased_Box",nil,50000],
-						["srifle_GM6_LRPS_F",nil,1500000],
-						["5Rnd_127x108_Mag",nil,150000],
-						["srifle_EBR_F",nil,300000],
-						["arifle_Katiba_F",nil,150000],
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
-						["100Rnd_65x39_caseless_mag",nil,35000],
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["11Rnd_45ACP_Mag",nil,1000],
-						["SMG_02_F",nil,50000],
-						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
-						["30Rnd_65x39_caseless_mag",nil,10000],
-						["20Rnd_762x51_Mag",nil,50000],
-						["30Rnd_65x39_caseless_green",nil,35000],
-						["ItemWatch",nil,450],
-						["ItemMap",nil,250],
-						["ItemGPS",nil,1000],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,350],
-						["Binocular",nil,450],
-						["ItemCompass",nil,450],
-						["NVGoggles",nil,2000],
-						["16Rnd_9x21_Mag",nil,2500],
-						["9Rnd_45ACP_Mag",nil,2500],
-						["6Rnd_45ACP_Cylinder",nil,2500],
-						["30Rnd_9x21_Mag",nil,2500],
-						["optic_Holosight",nil,10000],
-						["optic_Arco",nil,20000],
-						["optic_Hamr",nil,20000],
-						["optic_MRCO",nil,20000],
-						["optic_SOS",nil,30000]
-					]
-				];
-			};
-		};
-	};
-	
 	
 };

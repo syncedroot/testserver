@@ -42,11 +42,11 @@ switch (_shop) do
 	{
 		_return = 
 		[
-			["B_Quadbike_01_F",5000],
-			["C_Hatchback_01_F",25000],
-			["C_Offroad_01_F",45000],
-			["C_SUV_01_F",100000],
-			["C_Van_01_transport_F",150000]
+			["B_Quadbike_01_F",2500],
+			["C_Hatchback_01_F",15000],
+			["C_Offroad_01_F",25000],
+			["C_SUV_01_F",50000],
+			["C_Van_01_transport_F",20000]
 		];
 	};
 	
@@ -54,14 +54,14 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Van_01_box_F",170000],
-			["I_Truck_02_transport_F",200000],
-			["I_Truck_02_covered_F",250000],
-			["B_Truck_01_transport_F",800000],
-			["O_Truck_03_transport_F",600000],
-			["O_Truck_03_covered_F",700000],
-			["B_Truck_01_box_F",1200000],
-			["O_Truck_03_device_F",2500000]
+			["C_Van_01_box_F",60000],
+			["I_Truck_02_transport_F",100000],
+			["I_Truck_02_covered_F",150000],
+			["B_Truck_01_transport_F",250000],
+			["O_Truck_03_transport_F",350000],
+			["O_Truck_03_covered_F",40000],
+			["B_Truck_01_box_F",500000],
+			["O_Truck_03_device_F",700000]
 		];	
 	};
 	
@@ -70,17 +70,17 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Quadbike_01_F",5000],
-			["B_G_Offroad_01_F",45000],
+			["B_Quadbike_01_F",2500],
+			["B_G_Offroad_01_F",25000],
 			//["O_MRAP_02_F",150000],
 			//["B_Heli_Light_01_F",325000],
-			["C_Hatchback_01_F",25000]
+			["C_Hatchback_01_F",15000]
 		];
 		
 		/*if(license_civ_rebel) then
 		{
 			_return pushBack
-			["B_G_Offroad_01_armed_F",750000];
+			//["B_G_Offroad_01_armed_F",750000];
 		};*/
 	};
 	
