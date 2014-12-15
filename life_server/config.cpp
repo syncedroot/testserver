@@ -107,8 +107,6 @@ class CfgFunctions
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
-			class getPrices {};
-            class ajustprices {};
 			class handleMessages {};
 			class msgRequest {};
 			class cleanupMessages {};
