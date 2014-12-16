@@ -317,7 +317,11 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,5000],
 						["9Rnd_45ACP_Mag",nil,5000],
 						["6Rnd_45ACP_Cylinder",nil,5000],
-						["30Rnd_9x21_Mag",nil,5000]
+						["30Rnd_9x21_Mag",nil,5000],
+						["optic_Arco",nil,20000],
+						["optic_Hamr",nil,20000],
+						["acc_flashlight",nil,10000],
+						["optic_MRCO",nil,20000]
 					]
 				];
 			};
@@ -426,11 +430,17 @@ switch(_shop) do
 			{
 				["ReCon Private",
 					[
+						["arifle_MX_F",nil,150000],
+						["arifle_MXM_F",nil,250000],
+						["arifle_MX_SW_F",nil,200000],
+						["100Rnd_65x39_caseless_mag",nil,35000],
+						["5Rnd_127x108_Mag",nil,150000],
+						["200Rnd_65x39_cased_Box",nil,50000],					
 						["hgun_Pistol_heavy_01_F",nil,10000],
 						["11Rnd_45ACP_Mag",nil,1000],
 						["SMG_02_F",nil,50000],
 						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
+						["arifle_MXC_F",nil,100000],
 						["30Rnd_65x39_caseless_mag",nil,10000],
 						["20Rnd_762x51_Mag",nil,50000],
 						["30Rnd_65x39_caseless_green",nil,35000],
@@ -445,8 +455,11 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,2500],
 						["9Rnd_45ACP_Mag",nil,2500],
 						["6Rnd_45ACP_Cylinder",nil,2500],
-						["30Rnd_9x21_Mag",nil,2500],
-						["optic_Holosight",nil,10000]
+						["acc_flashlight",nil,10000],
+						["optic_Holosight",nil,10000],
+						["optic_Arco",nil,20000],
+						["optic_Hamr",nil,20000],
+						["optic_MRCO",nil,20000]
 					]
 				];
 			};
@@ -461,17 +474,23 @@ switch(_shop) do
 			case (__GETC__(life_rebellevel) < 4): {"Du hast nicht den nötigen Rang!"};
 			default
 			{
-				["ReCon Colonel",
+				["ReCon Corporal",
 					[
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
+						["arifle_MX_F",nil,150000],
+						["arifle_MXM_F",nil,250000],
+						["arifle_MX_SW_F",nil,200000],
+						["srifle_EBR_F",nil,600000],
+						["arifle_Katiba_F",nil,350000],						
+						["LMG_Mk200_F",nil,500000],
+						["srifle_GM6_LRPS_F",nil,1500000],
+						["5Rnd_127x108_Mag",nil,150000],
+						["200Rnd_65x39_cased_Box",nil,50000],
 						["100Rnd_65x39_caseless_mag",nil,35000],
 						["hgun_Pistol_heavy_01_F",nil,10000],
 						["11Rnd_45ACP_Mag",nil,1000],
 						["SMG_02_F",nil,50000],
 						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
+						["arifle_MXC_F",nil,100000],
 						["30Rnd_65x39_caseless_mag",nil,10000],
 						["20Rnd_762x51_Mag",nil,50000],
 						["30Rnd_65x39_caseless_green",nil,35000],
@@ -486,11 +505,13 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,2500],
 						["9Rnd_45ACP_Mag",nil,2500],
 						["6Rnd_45ACP_Cylinder",nil,2500],
+						["acc_flashlight",nil,10000],
 						["30Rnd_9x21_Mag",nil,2500],
 						["optic_Holosight",nil,10000],
 						["optic_Arco",nil,20000],
 						["optic_Hamr",nil,20000],
-						["optic_MRCO",nil,20000]
+						["optic_MRCO",nil,20000],
+						["optic_SOS",nil,30000]
 					]
 				];
 			};
@@ -507,17 +528,17 @@ switch(_shop) do
 			{
 				["ReCon Major",
 					[
-						["srifle_EBR_F",nil,300000],
-						["arifle_Katiba_F",nil,150000],
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
+						["srifle_EBR_F",nil,600000],
+						["arifle_Katiba_F",nil,350000],
+						["arifle_MX_F",nil,150000],
+						["arifle_MXM_F",nil,250000],
+						["arifle_MX_SW_F",nil,200000],
 						["100Rnd_65x39_caseless_mag",nil,35000],
 						["hgun_Pistol_heavy_01_F",nil,10000],
 						["11Rnd_45ACP_Mag",nil,1000],
 						["SMG_02_F",nil,50000],
 						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
+						["arifle_MXC_F",nil,100000],
 						["30Rnd_65x39_caseless_mag",nil,10000],
 						["20Rnd_762x51_Mag",nil,50000],
 						["30Rnd_65x39_caseless_green",nil,35000],
@@ -532,11 +553,13 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,2500],
 						["9Rnd_45ACP_Mag",nil,2500],
 						["6Rnd_45ACP_Cylinder",nil,2500],
+						["acc_flashlight",nil,10000],
 						["30Rnd_9x21_Mag",nil,2500],
 						["optic_Holosight",nil,10000],
 						["optic_Arco",nil,20000],
 						["optic_Hamr",nil,20000],
-						["optic_MRCO",nil,20000]
+						["optic_MRCO",nil,20000],
+						["Rangefinder",nil,45000]
 					]
 				];
 			};
@@ -559,17 +582,17 @@ switch(_shop) do
 						["200Rnd_65x39_cased_Box",nil,50000],
 						["srifle_GM6_LRPS_F",nil,1500000],
 						["5Rnd_127x108_Mag",nil,150000],
-						["srifle_EBR_F",nil,300000],
-						["arifle_Katiba_F",nil,150000],
-						["arifle_MX_F",nil,75000],
-						["arifle_MXM_F",nil,125000],
-						["arifle_MX_SW_F",nil,100000],
+						["srifle_EBR_F",nil,600000],
+						["arifle_Katiba_F",nil,350000],
+						["arifle_MX_F",nil,150000],
+						["arifle_MXM_F",nil,250000],
+						["arifle_MX_SW_F",nil,200000],
 						["100Rnd_65x39_caseless_mag",nil,35000],
 						["hgun_Pistol_heavy_01_F",nil,10000],
 						["11Rnd_45ACP_Mag",nil,1000],
 						["SMG_02_F",nil,50000],
 						["30Rnd_9x21_Mag",nil,5000],
-						["arifle_MXC_F",nil,50000],
+						["arifle_MXC_F",nil,100000],
 						["30Rnd_65x39_caseless_mag",nil,10000],
 						["20Rnd_762x51_Mag",nil,50000],
 						["30Rnd_65x39_caseless_green",nil,35000],
@@ -584,6 +607,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,2500],
 						["9Rnd_45ACP_Mag",nil,2500],
 						["6Rnd_45ACP_Cylinder",nil,2500],
+						["acc_flashlight",nil,10000],						
 						["30Rnd_9x21_Mag",nil,2500],
 						["optic_Holosight",nil,10000],
 						["optic_Arco",nil,20000],
