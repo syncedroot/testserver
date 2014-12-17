@@ -28,6 +28,10 @@ switch (_filter) do
 	{
 		[
 			["U_IG_Guerilla1_1",nil,5000],
+			["U_I_CombatUniform_tshirt",nil,10000],
+			["U_I_OfficerUniform",nil,10000],			
+			["U_I_CombatUniform_shortsleeve",nil,10000],
+			["U_I_pilotCoveralls",nil,10000],
 			["U_I_G_Story_Protagonist_F",nil,7500],
 			["U_I_G_resistanceLeader_F",nil,11500],
 			["U_O_SpecopsUniform_ocamo",nil,17500],
@@ -46,6 +50,11 @@ switch (_filter) do
 			["H_ShemagOpen_khk",nil,800],
 			["H_HelmetO_ocamo",nil,2500],
 			["H_MilCap_oucamo",nil,1200],
+			["H_Cap_oli_hs",nil,1200],
+			["H_Booniehat_dgtl",nil,1200],
+			["H_Cap_oli",nil,1200],
+			["H_Bandanna_khk",nil,1200],
+			["H_MilCap_dgtl",nil,1200],
 			["H_Bandanna_camo",nil,650]
 		];
 	};
@@ -55,7 +64,9 @@ switch (_filter) do
 	{
 		[
 			["G_Shades_Black",nil,25],
+			["G_Aviator",nil,50],
 			["G_Shades_Blue",nil,20],
+			["G_Shades_Red",nil,50],
 			["G_Sport_Blackred",nil,20],
 			["G_Sport_Checkered",nil,20],
 			["G_Sport_Blackyellow",nil,20],
@@ -75,7 +86,11 @@ switch (_filter) do
 			["V_Chestrig_rgr",nil,12500],
 			["V_Chestrig_khk",nil,12500],
 			["V_BandollierB_cbr",nil,4500],
-			["V_HarnessO_brn",nil,7500]
+			["V_HarnessO_brn",nil,7500],
+			["V_PlateCarrierIA1_dgtl",nil,10000],
+			["V_PlateCarrierIA2_dgtl",nil,10000]
+			
+			
 		];
 	};
 	
@@ -84,6 +99,7 @@ switch (_filter) do
 	{
 		[
 			["B_AssaultPack_cbr",nil,2500],
+			["B_AssaultPack_dgtl",nil,2500],
 			["B_Kitbag_mcamo",nil,4500],
 			["B_TacticalPack_oli",nil,3500],
 			["B_FieldPack_ocamo",nil,3000],
