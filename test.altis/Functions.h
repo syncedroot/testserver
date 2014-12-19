@@ -93,6 +93,7 @@ class Life_Client_Core
 	class Actions
 	{
 		file = "core\actions";
+		class craftAction {};
 		class buyLicense {};
 		class healHospital {};
 		class pushVehicle {};
@@ -150,6 +151,7 @@ class Life_Client_Core
 	{
 		file = "core\config";
 		class licensePrice {};
+		class craftCfg {};
 		class vehicleColorCfg {};
 		class vehicleColorStr {};
 		class vehicleListCfg {};
@@ -180,6 +182,9 @@ class Life_Client_Core
 	{
 		file = "core\pmenu";
 		class wantedList {};
+class craft {};
+class craft_update {};
+class craft_updateFilter {};
 		class wantedInfo {};
 		class wantedMenu {};
 		class pardon {};

@@ -106,6 +106,106 @@
 			<Portuguese>Cancelar</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Craft">
+		<Key ID="STR_CRAFT_Title">
+			<Original>Crafting Menu</Original>
+ 			<English>Crafting Menu</English>
+ 			<German>Bau Menü</German>
+			<French>Menu de Crafting</French>
+			<Italian>Crafting Menu</Italian>
+			<Portuguese>Crafting Menu</Portuguese>
+		</Key>
+		<Key ID="STR_PM_CraftStats">
+			<Original>Object to craft</Original>
+ 			<English>Object to craft</English>
+ 			<German>Sachen zum bauen</German>
+			<French>Objet à crafter</French>
+			<Italian>Object to craft</Italian>
+			<Portuguese>Object to craft</Portuguese>
+		</Key>
+		<Key ID="STR_PM_CraftMaterials">
+			<Original>Materials needed</Original>
+ 			<English>Materials needed</English>
+ 			<German>Benötigte Sachen</German>
+			<French>Materiaux requis</French>
+			<Italian>Materials needed</Italian>
+			<Portuguese>Materials needed</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_Button">
+			<Original>Craft !</Original>
+ 			<English>Craft !</English>
+ 			<German>Bauen !</German>
+			<French>Craft !</French>
+			<Italian>Craft !</Italian>
+			<Portuguese>Craft !</Portuguese>
+		</Key>
+		<Key ID="STR_PM_NoMaterial">
+			<Original>You do not have all the required materials !</Original>
+ 			<English>You do not have all the required materials !</English>
+ 			<German>Du hast nicht genug davon...!</German>
+			<French>Vous n'avez pas tous les matériaux requis !</French>
+			<Italian>You do not have all the required materials !</Italian>
+			<Portuguese>You do not have all the required materials !</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_Process">
+			<Original>You have crafted : %1</Original>
+			<English>You have crafted : %1</English>
+			<German>Du hast folgendes hergestellt : %1</German>
+			<French>Vous avez crafté : %1</French>
+			<Italian>You have crafted : %1</Italian>
+			<Portuguese>You have crafted : %1</Portuguese>
+		</Key>
+
+		<Key ID="STR_CRAFT_FILTER_Weapon">
+			<Original>Weapons</Original>
+ 			<English>Weapons</English>
+ 			<German>Waffen</German>
+			<French>Armes</French>
+			<Italian>Weapons</Italian>
+			<Portuguese>Weapons</Portuguese>
+		</Key>
+
+		<Key ID="STR_CRAFT_FILTER_Uniform">
+			<Original>Uniforms</Original>
+ 			<English>Uniforms</English>
+ 			<German>Kleidung</German>
+			<French>Uniformes</French>
+			<Italian>Uniforms</Italian>
+			<Portuguese>Uniforms</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Backpack">
+			<Original>Backpacks</Original>
+ 			<English>Backpacks</English>
+ 			<German>Rucksäcke</German>
+			<French>Sacs à dos</French>
+			<Italian>Backpacks</Italian>
+			<Portuguese>Backpacks</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Item">
+			<Original>Items</Original>
+ 			<English>Items</English>
+ 			<German>Items</German>
+			<French>Items</French>
+			<Italian>Items</Italian>
+			<Portuguese>Items</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_AR_Backpack">
+			<Original>You already have a backpack ! Put it on the ground before crafting a new.</Original>
+ 			<English>You already have a backpack ! Put it on the ground before crafting a new.</English>
+ 			<German>Du hast bereit einen Rucksack ! Pack den alten erstmal weg.</German>
+			<French>Vous avez déjà un sac à dos ! Posez le votre avant d'en crafter un nouveau.</French>
+			<Italian>You already have a backpack ! Put it on the ground before crafting a new.</Italian>
+			<Portuguese>You already have a backpack ! Put it on the ground before crafting a new.</Portuguese>
+		</Key>
+		<Key ID="STR_CRAFT_AR_Uniform">
+			<Original>You already have an uniform ! Put it on the ground before crafting a new.</Original>
+ 			<English>You already have an uniform ! Put it on the ground before crafting a new.</English>
+ 			<German>Du hast bereits was an ! Mach dich nackt und versuch es nochmal.</German>
+			<French>Vous avez déjà un uniforme ! Posez le votre avant d'en crafter un nouveau.</French>
+			<Italian>You already have an uniform ! Put it on the ground before crafting a new.</Italian>
+			<Portuguese>You already have an uniform ! Put it on the ground before crafting a new.</Portuguese>
+		</Key>
+	</Package>  
 	<Package name="Admin_Menu">
 		<Key ID="STR_Admin_Title">
 			<Original>Admin Menu</Original>
@@ -1012,6 +1112,14 @@
 		</Key>
 	</Package>
 	<Package name="Player_Menu">
+	<Key ID="STR_PM_Craft">
+	<Original>Craft</Original>
+	<English>Craft</English>
+	<German>Craft</German>
+	<French>Craft</French>
+	<Italian>Craft</Italian>
+	<Portuguese>Craft</Portuguese>
+</Key>
 		<Key ID="STR_PM_Title">
 			<Original>Player Menu</Original>
 			<English>Player Menu</English>

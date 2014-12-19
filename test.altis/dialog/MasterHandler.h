@@ -29,3 +29,4 @@
 #include "market.hpp"
 #include "extended_admin_menu.hpp"
 #include "smartphone.hpp"
+#include "craft.hpp"
